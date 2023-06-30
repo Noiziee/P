@@ -1,0 +1,27 @@
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+
+.design-slider {
+	padding-bottom: 25px;
+}
+.design-slider__item {
+	padding: 0 30px;
+}
+.slick-track {
+	margin-left: -68px;
+}
+
+.arrow {
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	bottom: 0;
+	left: 50%;
+}
+
+.arrow__left {
+	transform: translateX(-80px);
+}
+.arrow__right {
+	transform: translateX(30px);
+}
